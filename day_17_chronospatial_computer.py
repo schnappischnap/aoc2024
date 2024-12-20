@@ -39,7 +39,7 @@ def run_program(a, b, c, program):
 
 
 if __name__ == "__main__":
-    with open(R"C:\Users\benja\OneDrive\Python\aoc2024\day_17_input.txt", "r") as f:
+    with open("day_17_input.txt", "r") as f:
         inp = f.read()
         print("Part 1: " + str(part_1(inp)))
         print("Part 2: " + str(part_2(inp)))
